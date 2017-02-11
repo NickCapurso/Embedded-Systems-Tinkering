@@ -1,0 +1,11 @@
+Example JSON sent to the Master Arduino from a machine that has requested Capital One's DevExchange Rewards API.
+    - "First" -- indicates the data for the master arduino (rewards amount). Displayed on the 3-digit 7-Seg LED blocks we had available.
+    - "rewardsType" -- additional data for the master arduino. Indicates rewards type (cash, miles, points).
+    - "Second" -- indicates the data for the slave bar graph Arduino (decided to just have it drive LEDs for credit card issuer (VISA / MC), but the bar graph lit up and down in a fun pattern anyway)
+    - "Third" -- indicates the data for the slave third 7-Seg Arduino (credit card last 3)
+{
+    "first":121,
+    "rewardsType":2,
+    "second":2,
+    "third":451
+}
