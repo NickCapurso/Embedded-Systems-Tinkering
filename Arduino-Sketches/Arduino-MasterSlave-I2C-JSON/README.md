@@ -6,7 +6,7 @@ Because of the hardware that was available to us (ex. 7-Segs talking up more tha
 Uses the Arduino's [SevSeg Library](http://playground.arduino.cc/Main/SevenSegmentLibrary) and the [ArduinoJson Library](https://github.com/bblanchon/ArduinoJson).
 
 ## Final "Product"
-![Image of the final dashboard in use](https://github.com/NickCapurso/Embedded-Systems-Tinkering/blob/master/Arduino-MasterSlave-I2C-JSON/Setup.png "Image of the final dashboard in use")
+![Image of the final dashboard in use](https://github.com/NickCapurso/Embedded-Systems-Tinkering/blob/master/Arduino-Sketches/Arduino-MasterSlave-I2C-JSON/Setup.png "Image of the final dashboard in use")
 Information being displayed (from left-to-right, using mock data):
 * SevSeg - Rewards value (IIRC, it was in thousands).
 * 3 Stacked LEDs - Rewards type (Miles / Points / Cash) (i.e. so the display reads "105,000 Points").
